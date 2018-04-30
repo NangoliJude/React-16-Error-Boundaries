@@ -16,7 +16,6 @@ class ErrorBoundry extends Component{
     }
     render(){
         if(this.state.hasError){
-            console.log("error found")
             return <span>Opps!! Seen some Error</span>
             
 
